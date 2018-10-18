@@ -1,4 +1,4 @@
-import { removeItem } from './lib/removeItem';
+import { removeItem } from './removeItem';
 
 
 let arr = ['he', 'llo', 'bay', 'bayyyy'];
@@ -25,7 +25,7 @@ else console.log('test 3 failed');
 // Test 4: Make sure -2 removes second to last item:
 arr = ['he', 'llo', 'zz', 'gg', 'cc', 'aa'];
 removeItem(-2, arr);
-if (arr.length === 5 && arr[4] === 'aa') console.log('test 4 passed');
+if (arr.length === 5 && arr[3] === 'gg'  && arr[4] === 'aa') console.log('test 4 passed');
 else console.log('test 4 failed');
 
 
