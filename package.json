@@ -1,6 +1,6 @@
 {
-  "name": "@writetome51/array-remove-item",
-  "version": "1.0.1",
+  "name": "@writetome51/array-remove-by-index",
+  "version": "1.0.0",
   "description": "Removes single item from array, identified by a passed index",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,6 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "@writetome51/array-get-and-remove-item": "latest"
+    "@writetome51/array-get-and-remove-by-index": "latest"
   }
 }

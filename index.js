@@ -1,3 +1,3 @@
-var removeItem = require('./lib/removeItem');
+var removeByIndex = require('./lib/removeByIndex');
 
-module.exports = removeItem;
+module.exports = removeByIndex;
