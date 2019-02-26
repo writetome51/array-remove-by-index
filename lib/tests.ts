@@ -1,4 +1,4 @@
-import { removeByIndex } from './removeByIndex';
+import { removeByIndex } from './index';
 
 
 let arr = ['he', 'llo', 'bay', 'bayyyy'];
