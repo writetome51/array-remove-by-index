@@ -5,11 +5,11 @@ Removes item, identified by `index`, from `array`.
 
 
 Examples:
-```
+```js
 let arr = [1,2,3,4,5,6];
 removeByIndex(2, arr); // arr is now [1,2,4,5,6]
 
-let arr = [1,2,3,4,5,6];
+arr = [1,2,3,4,5,6];
 removeByIndex(-2, arr); // arr is now [1,2,3,4,6]
 ```
 
@@ -17,9 +17,6 @@ removeByIndex(-2, arr); // arr is now [1,2,3,4,6]
 `npm i  @writetome51/array-remove-by-index`
 
 ## Loading
-```
-// if using TypeScript:
+```js
 import {removeByIndex} from '@writetome51/array-remove-by-index';
-// if using ES5 JavaScript:
-var removeByIndex = require('@writetome51/array-remove-by-index').removeByIndex;
 ```
