@@ -1,19 +1,17 @@
 {
   "name": "@writetome51/array-remove-by-index",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Removes single item from array, identified by a passed index",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
+  "main": "index.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/writetome51/array-remove-by-index.git"
   },
   "keywords": [
     "array",
+    "splice",
     "remove",
     "item",
     "manipulation"
@@ -26,6 +24,6 @@
   "homepage": "https://github.com/writetome51/array-remove-by-index#readme",
   "devDependencies": {},
   "dependencies": {
-    "@writetome51/array-get-and-remove-by-index": "^2.0.0"
+    "@writetome51/array-get-and-remove-by-index": ">=2.0.0"
   }
 }
